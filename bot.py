@@ -1,4 +1,4 @@
-8659134145:AAHt6tQsKwJOP3bxeU8MhUiXQ6GP2t4T4HI
+
 import os
 import random
 from flask import Flask, request

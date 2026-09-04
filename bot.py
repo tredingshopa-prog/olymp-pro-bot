@@ -181,7 +181,7 @@ def callback_handler(call):
             call.message.message_id,
             reply_markup=main_menu()
         )
- elif data == "pairs":
+    elif data == "pairs":
         bot.edit_message_text(
             "💱 Select currency pair:",
             chat_id,

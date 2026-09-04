@@ -11,7 +11,7 @@ if not TOKEN:
     raise RuntimeError("BOT_TOKEN is not set")
 
 bot = telebot.TeleBot(TOKEN)
-app = Flask(name)
+app = Flask(__name__)
 
 PAIRS = [
     "AUD/USD", "EUR/AUD", "EUR/CAD", "EUR/CHF",
